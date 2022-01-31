@@ -20,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const  Duration(seconds: 5),(){
       
       Provider.of<UserProvider>(context,listen:false).initializeUser(context);
-    //  Constant.navigatorAsset(context, GettingStarted());
+    Constant.navigatorAsset(context, GettingStarted());
     } );
   }
   @override
